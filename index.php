@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
- <link rel="stylesheet" href="assets/css/style.css">
+ <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <header class="site-header">
@@ -64,5 +64,6 @@
 <section class="bottom-cta"><div><div class="eyebrow">BE PART OF THE CHANGE</div><h2>A cleaner Ghana is a <em>shared effort.</em></h2></div><a class="btn btn-light" href="report.php">Report an environmental issue <i class="fa-solid fa-arrow-right"></i></a></section>
 </main>
 <footer class="site-footer"><a class="brand brand-footer" href="index.php"><span class="brand-mark"><i class="fa-solid fa-leaf"></i></span><span>Green<span>Loop</span><small>SMARTER WASTE. CLEANER GHANA.</small></span></a><p>Making waste management more connected, convenient and responsible.</p><div class="footer-links"><a href="#services">Services</a><a href="track.php">Track collection</a><a href="marketplace.php">Recycling hub</a><a href="admin-login.php">Administrator</a><a href="driver-login.php">Driver portal</a></div><small>© <?= date('Y') ?> GreenLoop. Built for cleaner communities.</small></footer>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="assets/js/app.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+ <script src="/app.js"></script>
 </body></html>
